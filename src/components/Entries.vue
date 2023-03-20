@@ -9,12 +9,10 @@
             {{item.isActive ? 'ACTIVE' : 'HIDDEN'}}
           </button>
 
-
           <div>
             <button type="button"
                     @click="handleDelete(index)">Delete</button>
           </div>
-
         </header>
 
         <img :src=item.image alt="website-img">

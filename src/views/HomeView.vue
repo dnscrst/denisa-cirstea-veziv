@@ -10,7 +10,8 @@
     <div class="add-section">
       <button v-if="!addForm"
           class="add-button" @click="handleForm">
-        <img src="../assets/icons8-macos-maximize-90.png">
+        <img src="../assets/icons8-macos-maximize-90.png"
+             alt="add-icon">
         <span>Add project</span>
       </button>
 
